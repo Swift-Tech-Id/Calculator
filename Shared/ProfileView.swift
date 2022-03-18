@@ -10,7 +10,10 @@ struct ProfileView: View{
                 
             Text("Hobbies")
                 .font(.title2)
-            
+
+            Text("New Change")
+                .font(.title2)
+
             HStack{
                 ForEach(information.hobbies, id: \.self){hobby in Text(hobby)
                         .font(.system(size: 20))
